@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.circle
+{
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 20rem;
+    position: relative;
+}
+.edge1 {
+    height: 30px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    top: 53px;
+    left: 148px;
+}
+.edge2 {
+    top: 57px;
+    left: -149px;
+}
+.edge3 {
+    top: 209px;
+    left: 4px;
+    transform: rotate(90deg);
+}
+.edge4 {
+    top: -89px;
+    left: 2px;
+    transform: rotate(90deg);
+}
+.circle:hover
+{
+    transform: rotate(3600deg);
+    transition: 4s linear;
+}
